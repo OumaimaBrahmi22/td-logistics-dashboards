@@ -1,0 +1,148 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Logistics Network Dashboards</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f6fa;
+      color: #1f2937;
+    }
+
+    header {
+      background: #172554;
+      color: white;
+      padding: 55px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0 0 12px;
+      font-size: 32px;
+    }
+
+    header p {
+      margin: 0;
+      color: #dbeafe;
+      font-size: 16px;
+    }
+
+    main {
+      max-width: 1050px;
+      margin: 45px auto;
+      padding: 0 20px;
+    }
+
+    .intro {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .dashboards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 22px;
+    }
+
+    .card {
+      background: white;
+      padding: 28px;
+      border-radius: 12px;
+      box-shadow: 0 3px 12px rgba(0,0,0,0.07);
+      text-decoration: none;
+      color: inherit;
+      transition: transform 0.2s, box-shadow 0.2s;
+      border-top: 5px solid #2563eb;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+    }
+
+    .card h2 {
+      margin-top: 0;
+      font-size: 21px;
+    }
+
+    .card p {
+      color: #64748b;
+      line-height: 1.6;
+    }
+
+    .card span {
+      display: inline-block;
+      margin-top: 12px;
+      color: #2563eb;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      color: #64748b;
+      font-size: 13px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Logistics Network Dashboard</h1>
+    <p>Three perspectives. Three KPIs. One logistics network.</p>
+  </header>
+
+  <main>
+    <section class="intro">
+      <h2>Explore the dashboards</h2>
+      <p>Select a dashboard according to your management role.</p>
+    </section>
+
+    <section class="dashboards">
+
+      <a href="co2.html" class="card">
+        <h2>🌱 CO₂ Emissions</h2>
+        <p>
+          Sustainability dashboard for identifying
+          the routes with the highest carbon emissions
+          and prioritizing reduction actions.
+        </p>
+        <span>View dashboard →</span>
+      </a>
+
+      <a href="cost.html" class="card">
+        <h2>💶 Logistics Costs</h2>
+        <p>
+          Operations dashboard comparing transport
+          and storage costs across the existing warehouses.
+        </p>
+        <span>View dashboard →</span>
+      </a>
+
+      <a href="network.html" class="card">
+        <h2>🗺️ Network Strategy</h2>
+        <p>
+          Strategic dashboard comparing warehouse
+          scenarios to improve the logistics network.
+        </p>
+        <span>View dashboard →</span>
+      </a>
+
+    </section>
+  </main>
+
+  <footer>
+    Logistics Network Analysis — Dashboard Design TD
+  </footer>
+
+</body>
+</html>
