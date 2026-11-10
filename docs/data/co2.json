@@ -1,1 +1,332 @@
-{}
+{
+  "total_co2_kg": 6236300,
+  "co2_kg_per_tonne_network_avg": 16.8,
+  "by_warehouse": [
+    {
+      "warehouse": "Paris",
+      "total_co2_kg": 1497152,
+      "total_tonnes": 164741.6,
+      "co2_kg_per_tonne": 9.09
+    },
+    {
+      "warehouse": "Lyon",
+      "total_co2_kg": 4739148,
+      "total_tonnes": 194724.0,
+      "co2_kg_per_tonne": 24.34
+    },
+    {
+      "warehouse": "Lille",
+      "total_co2_kg": 0,
+      "total_tonnes": 11654.9,
+      "co2_kg_per_tonne": 0.0
+    }
+  ],
+  "top_links": [
+    {
+      "city": "Marseille",
+      "warehouse": "Lyon",
+      "distance_km": 277.6,
+      "co2_kg": 1211911
+    },
+    {
+      "city": "Toulouse",
+      "warehouse": "Lyon",
+      "distance_km": 359.9,
+      "co2_kg": 887887
+    },
+    {
+      "city": "Bordeaux",
+      "warehouse": "Lyon",
+      "distance_km": 435.8,
+      "co2_kg": 570419
+    },
+    {
+      "city": "Strasbourg",
+      "warehouse": "Lyon",
+      "distance_km": 382.3,
+      "co2_kg": 556826
+    },
+    {
+      "city": "Nantes",
+      "warehouse": "Paris",
+      "distance_km": 342.7,
+      "co2_kg": 549629
+    },
+    {
+      "city": "Nice",
+      "warehouse": "Lyon",
+      "distance_km": 298.1,
+      "co2_kg": 510700
+    },
+    {
+      "city": "Montpellier",
+      "warehouse": "Lyon",
+      "distance_km": 251.1,
+      "co2_kg": 379785
+    },
+    {
+      "city": "Rennes",
+      "warehouse": "Paris",
+      "distance_km": 308.1,
+      "co2_kg": 339696
+    },
+    {
+      "city": "Toulon",
+      "warehouse": "Lyon",
+      "distance_km": 306.1,
+      "co2_kg": 269639
+    },
+    {
+      "city": "Angers",
+      "warehouse": "Paris",
+      "distance_km": 265.0,
+      "co2_kg": 204711
+    }
+  ],
+  "all_cities": [
+    {
+      "city": "Paris",
+      "lat": 48.8566,
+      "lon": 2.3522,
+      "population": 2102650,
+      "role": "existing_warehouse",
+      "warehouse": "Paris",
+      "distance_km": 0.0,
+      "tonnes": 105132.5,
+      "co2_kg": 0,
+      "is_warehouse": true
+    },
+    {
+      "city": "Marseille",
+      "lat": 43.2965,
+      "lon": 5.3698,
+      "population": 873076,
+      "role": "candidate_warehouse",
+      "warehouse": "Lyon",
+      "distance_km": 277.6,
+      "tonnes": 43653.8,
+      "co2_kg": 1211911,
+      "is_warehouse": false
+    },
+    {
+      "city": "Lyon",
+      "lat": 45.764,
+      "lon": 4.8357,
+      "population": 522250,
+      "role": "existing_warehouse",
+      "warehouse": "Lyon",
+      "distance_km": 0.0,
+      "tonnes": 26112.5,
+      "co2_kg": 0,
+      "is_warehouse": true
+    },
+    {
+      "city": "Toulouse",
+      "lat": 43.6047,
+      "lon": 1.4442,
+      "population": 493465,
+      "role": "customer",
+      "warehouse": "Lyon",
+      "distance_km": 359.9,
+      "tonnes": 24673.25,
+      "co2_kg": 887887,
+      "is_warehouse": false
+    },
+    {
+      "city": "Nice",
+      "lat": 43.7102,
+      "lon": 7.262,
+      "population": 342637,
+      "role": "customer",
+      "warehouse": "Lyon",
+      "distance_km": 298.1,
+      "tonnes": 17131.85,
+      "co2_kg": 510700,
+      "is_warehouse": false
+    },
+    {
+      "city": "Nantes",
+      "lat": 47.2184,
+      "lon": -1.5536,
+      "population": 320732,
+      "role": "customer",
+      "warehouse": "Paris",
+      "distance_km": 342.7,
+      "tonnes": 16036.600000000002,
+      "co2_kg": 549629,
+      "is_warehouse": false
+    },
+    {
+      "city": "Montpellier",
+      "lat": 43.6108,
+      "lon": 3.8767,
+      "population": 302454,
+      "role": "customer",
+      "warehouse": "Lyon",
+      "distance_km": 251.1,
+      "tonnes": 15122.7,
+      "co2_kg": 379785,
+      "is_warehouse": false
+    },
+    {
+      "city": "Strasbourg",
+      "lat": 48.5734,
+      "lon": 7.7521,
+      "population": 291313,
+      "role": "customer",
+      "warehouse": "Lyon",
+      "distance_km": 382.3,
+      "tonnes": 14565.65,
+      "co2_kg": 556826,
+      "is_warehouse": false
+    },
+    {
+      "city": "Bordeaux",
+      "lat": 44.8378,
+      "lon": -0.5792,
+      "population": 261804,
+      "role": "candidate_warehouse",
+      "warehouse": "Lyon",
+      "distance_km": 435.8,
+      "tonnes": 13090.199999999999,
+      "co2_kg": 570419,
+      "is_warehouse": false
+    },
+    {
+      "city": "Lille",
+      "lat": 50.6292,
+      "lon": 3.0573,
+      "population": 233098,
+      "role": "existing_warehouse",
+      "warehouse": "Lille",
+      "distance_km": 0.0,
+      "tonnes": 11654.900000000001,
+      "co2_kg": 0,
+      "is_warehouse": true
+    },
+    {
+      "city": "Rennes",
+      "lat": 48.1173,
+      "lon": -1.6778,
+      "population": 220488,
+      "role": "customer",
+      "warehouse": "Paris",
+      "distance_km": 308.1,
+      "tonnes": 11024.4,
+      "co2_kg": 339696,
+      "is_warehouse": false
+    },
+    {
+      "city": "Reims",
+      "lat": 49.2583,
+      "lon": 4.0317,
+      "population": 182460,
+      "role": "customer",
+      "warehouse": "Paris",
+      "distance_km": 130.3,
+      "tonnes": 9123.0,
+      "co2_kg": 118847,
+      "is_warehouse": false
+    },
+    {
+      "city": "Le Havre",
+      "lat": 49.4944,
+      "lon": 0.1079,
+      "population": 170147,
+      "role": "customer",
+      "warehouse": "Paris",
+      "distance_km": 177.9,
+      "tonnes": 8507.35,
+      "co2_kg": 151332,
+      "is_warehouse": false
+    },
+    {
+      "city": "Saint-Etienne",
+      "lat": 45.4397,
+      "lon": 4.3872,
+      "population": 171924,
+      "role": "customer",
+      "warehouse": "Lyon",
+      "distance_km": 50.2,
+      "tonnes": 8596.2,
+      "co2_kg": 43134,
+      "is_warehouse": false
+    },
+    {
+      "city": "Toulon",
+      "lat": 43.1242,
+      "lon": 5.928,
+      "population": 176198,
+      "role": "customer",
+      "warehouse": "Lyon",
+      "distance_km": 306.1,
+      "tonnes": 8809.9,
+      "co2_kg": 269639,
+      "is_warehouse": false
+    },
+    {
+      "city": "Grenoble",
+      "lat": 45.1885,
+      "lon": 5.7245,
+      "population": 158552,
+      "role": "customer",
+      "warehouse": "Lyon",
+      "distance_km": 94.3,
+      "tonnes": 7927.599999999999,
+      "co2_kg": 74778,
+      "is_warehouse": false
+    },
+    {
+      "city": "Dijon",
+      "lat": 47.322,
+      "lon": 5.0415,
+      "population": 156920,
+      "role": "customer",
+      "warehouse": "Lyon",
+      "distance_km": 174.0,
+      "tonnes": 7845.999999999999,
+      "co2_kg": 136485,
+      "is_warehouse": false
+    },
+    {
+      "city": "Angers",
+      "lat": 47.4784,
+      "lon": -0.5632,
+      "population": 154508,
+      "role": "customer",
+      "warehouse": "Paris",
+      "distance_km": 265.0,
+      "tonnes": 7725.400000000001,
+      "co2_kg": 204711,
+      "is_warehouse": false
+    },
+    {
+      "city": "Le Mans",
+      "lat": 48.0061,
+      "lon": 0.1996,
+      "population": 143847,
+      "role": "customer",
+      "warehouse": "Paris",
+      "distance_km": 184.8,
+      "tonnes": 7192.35,
+      "co2_kg": 132938,
+      "is_warehouse": false
+    },
+    {
+      "city": "Clermont-Ferrand",
+      "lat": 45.7772,
+      "lon": 3.087,
+      "population": 143886,
+      "role": "customer",
+      "warehouse": "Lyon",
+      "distance_km": 135.6,
+      "tonnes": 7194.3,
+      "co2_kg": 97582,
+      "is_warehouse": false
+    }
+  ],
+  "assumptions": {
+    "co2_factor_kg_per_tonne_km": 0.1,
+    "tonnes_per_1000_residents_per_year": 50
+  }
+}

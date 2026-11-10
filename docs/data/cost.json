@@ -1,1 +1,94 @@
-{}
+{
+  "by_warehouse": [
+    {
+      "warehouse": "Paris",
+      "total_tonnes": 164741.6,
+      "transport_cost_eur": 1796511,
+      "storage_cost_eur": 6589664,
+      "total_cost_eur": 8386175,
+      "cost_eur_per_tonne": 50.91
+    },
+    {
+      "warehouse": "Lyon",
+      "total_tonnes": 194724.0,
+      "transport_cost_eur": 5687068,
+      "storage_cost_eur": 7788958,
+      "total_cost_eur": 13476026,
+      "cost_eur_per_tonne": 69.21
+    },
+    {
+      "warehouse": "Lille",
+      "total_tonnes": 11654.9,
+      "transport_cost_eur": 0,
+      "storage_cost_eur": 466196,
+      "total_cost_eur": 466196,
+      "cost_eur_per_tonne": 40.0
+    }
+  ],
+  "top_links": [
+    {
+      "city": "Marseille",
+      "warehouse": "Lyon",
+      "distance_km": 277.6,
+      "transport_cost_eur": 1454195
+    },
+    {
+      "city": "Toulouse",
+      "warehouse": "Lyon",
+      "distance_km": 359.9,
+      "transport_cost_eur": 1065588
+    },
+    {
+      "city": "Bordeaux",
+      "warehouse": "Lyon",
+      "distance_km": 435.8,
+      "transport_cost_eur": 684565
+    },
+    {
+      "city": "Strasbourg",
+      "warehouse": "Lyon",
+      "distance_km": 382.3,
+      "transport_cost_eur": 668214
+    },
+    {
+      "city": "Nantes",
+      "warehouse": "Paris",
+      "distance_km": 342.7,
+      "transport_cost_eur": 659489
+    },
+    {
+      "city": "Nice",
+      "warehouse": "Lyon",
+      "distance_km": 298.1,
+      "transport_cost_eur": 612841
+    },
+    {
+      "city": "Montpellier",
+      "warehouse": "Lyon",
+      "distance_km": 251.1,
+      "transport_cost_eur": 455677
+    },
+    {
+      "city": "Rennes",
+      "warehouse": "Paris",
+      "distance_km": 308.1,
+      "transport_cost_eur": 407594
+    },
+    {
+      "city": "Toulon",
+      "warehouse": "Lyon",
+      "distance_km": 306.1,
+      "transport_cost_eur": 323605
+    },
+    {
+      "city": "Angers",
+      "warehouse": "Paris",
+      "distance_km": 265.0,
+      "transport_cost_eur": 245668
+    }
+  ],
+  "assumptions": {
+    "cost_eur_per_tonne_km": 0.12,
+    "storage_cost_eur_per_tonne_year": 40
+  }
+}
